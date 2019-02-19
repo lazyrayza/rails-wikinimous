@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+.bigbox {
+  display: flex;
+  flex-direction: column;
+  height: 200vh;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.card {
+  padding: 12px;
+/*  margin: 4px
+*/}
+
+.box {
+border: 2px solid grey;
+width:500px;
+}
+
+.box h1 {
+  color: #02A3AA;
+}
